@@ -1,0 +1,109 @@
+:root{
+    background:white ;
+}
+*{
+    color:black;
+}
+h1{
+    color:blue;
+}
+.green{
+    color:green;
+}
+#blue{
+    color:blue;
+}
+div.box div{
+    background:green;
+}
+div.box p{
+    background: red;
+}
+.brown{
+    background: brown;
+    color:white;
+}
+ul>li{
+    background: red;
+}
+button.header-button+*{
+    background: red;
+}
+p.susid~p{
+    background: blue;
+    color:white;
+}
+.salo, #bread{
+    background: yellow;
+}
+div.first-task li:first-child{
+    color:white;
+}
+
+div.second-task li:first-child{
+    color:yellow;
+}
+div.third-task ul:last-child>li:first-child{
+    background:yellow;
+}
+div.four-task li:last-child{
+    background:yellow;
+}
+div.five-task ul:last-child>li:last-child{
+    background:white;
+}
+section>div.only-child-task:only-child, div.only-child-task>div:only-child{
+    color:red;
+} 
+div.seven-task p:first-of-type{
+    background: red;
+}
+div.eight-task p:last-of-type{
+    background: red;
+}
+div.nine-task p:only-of-type{
+    background: yellow;
+}
+div.lesson-three-task-one *[href]{
+    color:white;
+}
+ol.lesson-three-task-two>li[value]{
+    color:yellow;
+}
+ol.lesson-three-task-three>li[value="3"]{
+    background: red;
+}
+div.lesson-three-task-four button[class~="primary"]{
+    background:blue;
+}
+div.lesson-three-task-five button[class|="secondary"]{
+    background:red;
+}
+div.lesson-three-task-six li[class^="b"]{
+    color:green;
+    background: white;
+}
+div.lesson-three-task-seven li[class*="on"]{
+    color:green;
+    background: white;
+}
+div.lesson-three-task-eight span[class$="s"]{
+    background: white;
+    color:blue;
+}
+div.lesson-three-task-nine h2::first-letter{
+    color:red;
+}
+div.lesson-three-task-ten::first-line{
+    background:yellow;
+}
+
+div.lesson-three-task-eleven input::placeholder{
+    background:red;
+}
+div.lesson-three-task-twelve li::before{
+    content:"➤";
+}
+div.lesson-three-task-thirteen li::after{
+    content:"➤";
+}
